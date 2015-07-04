@@ -24,6 +24,7 @@ html {
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 	margin-top: 0px;
+	box-shadow: 8px 8px 25px #1C4E55;
 }
 
 #navbar a.logo img {
@@ -36,7 +37,7 @@ html {
 }
 
 #navbar .menu a {
-	color: #17783B;
+	color: #1C4E55;
 	padding-top: 34px;
 	padding-bottom: 34px;
 }
@@ -53,5 +54,36 @@ html {
 
 /* Page Headers */
 .page-header {
-	
+	color: white;
+	font-size: 34pt;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
 }
+
+/* The Team Page */
+#playerCard {
+	background-color: white;
+	padding: 25px;
+	height: 336px;
+	border-radius: 25px;
+	margin-bottom: 25px;
+}
+
+#playerCard #playerImage img {
+	width: 225px;
+	float: left;
+}
+
+#playerCard #playerInfo {
+	margin-left: 245px;
+}
+
+#playerCard #playerSocialMedia img {
+	width: 50px;
+}
+
+#playerCard #playerSocialMedia img:hover {
+	opacity: .5;
+}
+
