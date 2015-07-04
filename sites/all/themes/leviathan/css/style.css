@@ -68,6 +68,8 @@ html {
 	height: 336px;
 	border-radius: 25px;
 	margin-bottom: 25px;
+	border: 1px solid #1C4E55;
+	box-shadow: 8px 8px 25px #1C4E55;
 }
 
 #playerCard #playerImage img {
@@ -79,11 +81,83 @@ html {
 	margin-left: 245px;
 }
 
+#playerCard #playerName {
+	font-size: 19pt;
+	margin-bottom: 15px;
+}
+
+#playerCard #playerRole {
+	margin-bottom: 5px;
+}
+
+#playerCard #playerSignatureHeroes {
+	margin-bottom: 5px;
+}
+
+#playerCard #playerBiography{
+	margin-bottom: 5px;
+}
+
 #playerCard #playerSocialMedia img {
+	margin-top: 37px;
 	width: 50px;
 }
 
 #playerCard #playerSocialMedia img:hover {
 	opacity: .5;
+}
+
+/* The Coaching Page */
+#individualCoaching {
+	display: block;
+	background-color: white;
+	padding: 25px;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	border: 1px solid #1C4E55;
+	box-shadow: 8px 8px 25px #1C4E55;
+}
+
+#teamCoaching {
+	display: block;
+	background-color: white;
+	padding: 25px;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	border: 1px solid #1C4E55;
+	box-shadow: 8px 8px 25px #1C4E55;
+}
+
+#playerCoach {
+	display: block;
+	background-color: white;
+	padding: 25px;
+	height: 336px;
+	border-radius: 25px;
+	margin-bottom: 25px;
+	border: 1px solid #1C4E55;
+	box-shadow: 8px 8px 25px #1C4E55;
+}
+
+#playerCoach #playerImage img {
+	width: 225px;
+	float: left;
+}
+
+#playerCoach #playerInfo {
+	margin-left: 245px;
+}
+
+#playerCoach #playerName {
+	font-size: 15pt;
+	margin-bottom: 15px;
+}
+
+#playerCoach #playerRole {
+	margin-bottom: 5px;
+}
+
+#playerCoach #playerSignatureHeroes {
+	margin-bottom: 5px;
 }
 
