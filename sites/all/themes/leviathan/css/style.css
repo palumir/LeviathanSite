@@ -1,11 +1,28 @@
+/* Colors:
+Leviathan Green: #17783B
+Leviathan Blue: #1C4E55
+Leviathan Light Blue: #1C4E55
+*/
+
 /* Background */
+body {
+	height: 100%;
+	background-image: url(../background.png);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
 html {
 	min-height: 100%;
-	background: url(../background.png) no-repeat center center cover;
 }
 
 /* Header Menu Styling */
 .navbar.container {
+	border: 1px solid #1C4E55;
+	border-top: none;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 	margin-top: 0px;
 }
 
@@ -19,11 +36,22 @@ html {
 }
 
 #navbar .menu a {
+	color: #17783B;
 	padding-top: 34px;
 	padding-bottom: 34px;
 }
 
-#navbar .menu a.active {
+#navbar .menu a.active, #navbar .menu a.active:hover {
 	background: #1C4E55;
 	color: white;
+}
+
+#navbar .menu a:hover {
+	background: #365E6F;
+	color: white;
+}
+
+/* Page Headers */
+.page-header {
+	
 }
