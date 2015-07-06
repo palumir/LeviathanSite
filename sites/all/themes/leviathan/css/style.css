@@ -72,7 +72,6 @@ h3 {
 #playerCard {
 	background-color: white;
 	padding: 25px;
-	height: 336px;
 	border-radius: 25px;
 	margin-bottom: 25px;
 	border: 1px solid #1C4E55;
@@ -80,7 +79,7 @@ h3 {
 }
 
 #playerCard #playerImage img {
-	width: 225px;
+	max-width: 225px;
 	float: left;
 }
 
@@ -115,14 +114,27 @@ h3 {
 }
 
 /* The Coaching Page */
-#individualCoaching, #teamCoaching {
+#allCoaching {
+	overflow: hidden;
 	display: block;
 	background-color: white;
 	padding: 25px;
+	padding-bottom: 0px;
 	border-radius: 25px;
 	margin-bottom: 25px;
 	border: 1px solid #1C4E55;
 	box-shadow: 8px 8px 25px #1C4E55;
+}
+
+#individualCoaching {
+	float: left;
+	margin-bottom:25px;
+}
+
+#teamCoaching {
+	max-width: 674px;
+	float: right;
+	margin-bottom:25px;
 }
 
 a#playerCoach {
