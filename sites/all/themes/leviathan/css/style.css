@@ -4,7 +4,7 @@ Leviathan Blue: #1C4E55
 Leviathan Light Blue: #1C4E55
 */
 
-/* Background */
+/* Background and Globals*/
 body {
 	height: 100%;
 	background-image: url(../background.png);
@@ -15,6 +15,10 @@ body {
 }
 html {
 	min-height: 100%;
+}
+
+h3 {
+	margin-top: 0px;
 }
 
 /* Header Menu Styling */
@@ -37,7 +41,6 @@ html {
 }
 
 #navbar .menu a {
-	color: #1C4E55;
 	padding-top: 34px;
 	padding-bottom: 34px;
 }
@@ -108,7 +111,7 @@ html {
 }
 
 /* The Coaching Page */
-#individualCoaching {
+#individualCoaching, #teamCoaching {
 	display: block;
 	background-color: white;
 	padding: 25px;
@@ -118,46 +121,47 @@ html {
 	box-shadow: 8px 8px 25px #1C4E55;
 }
 
-#teamCoaching {
+a#playerCoach {
+	max-width: 345px;
+	color: black;
 	display: block;
 	background-color: white;
-	padding: 25px;
-	border-radius: 25px;
-	margin-bottom: 25px;
+	padding: 15px;
+	border-radius: 15px;
+	margin-bottom: 5px;
+	padding-bottom: 20px;
 	border: 1px solid #1C4E55;
-	box-shadow: 8px 8px 25px #1C4E55;
 }
 
-#playerCoach {
-	display: block;
-	background-color: white;
-	padding: 25px;
-	height: 336px;
-	border-radius: 25px;
-	margin-bottom: 25px;
+a#playerCoach:hover {
+	color: white;
+	text-decoration: none;
+	background-color: #1C4E55;
 	border: 1px solid #1C4E55;
-	box-shadow: 8px 8px 25px #1C4E55;
 }
 
 #playerCoach #playerImage img {
-	width: 225px;
+	width: 60px;
 	float: left;
 }
 
 #playerCoach #playerInfo {
-	margin-left: 245px;
+	margin-left: 70px;
 }
 
 #playerCoach #playerName {
-	font-size: 15pt;
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 }
 
 #playerCoach #playerRole {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
 }
 
 #playerCoach #playerSignatureHeroes {
-	margin-bottom: 5px;
+	margin-bottom: 2px;
+}
+
+#playerCoach #playerSignatureHeroes img {
+	width: 40px;
 }
 
