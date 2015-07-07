@@ -24,6 +24,7 @@ h3 {
 	color: white;
 	letter-spacing: 4px;
 	border-radius: 5px;
+	padding: 3px;
 }
 
 .page-header {
@@ -148,6 +149,8 @@ a#playerCoach {
 	padding-bottom: 20px;
 	border: 1px solid #1C4E55;
 	box-shadow: 5px 5px 25px #1C4E55;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 a#playerCoach:hover {
